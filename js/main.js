@@ -20,5 +20,8 @@ const loadData = async() => {
 
     // getting card elements
     let photo_area = document.getElementsByTagName('img')[0];
-    photo_area.src = photo
+    photo_area.src = photo;
+
+    let title_area = document.querySelector('.card-title');
+    title_area.innerHTML = name;
 } 
